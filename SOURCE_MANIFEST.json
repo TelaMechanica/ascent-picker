@@ -94,7 +94,7 @@
   },
   "export_files": {
     "host-checks.json": "038e6a5960554faf1ab74ced281ed0913c1039893e9318536d71ee72b04e044a",
-    "README.md": "f9fcdce8f1d0ba208d38eb74532d057032e18d9a715f7362affd253adcee200a",
+    "README.md": "c81d4f08982dd11a18f549e1305f848769c073003f72514b74f819fa3f6ecaf9",
     "run_host_checks.py": "1d35ef7a30e94280c92c70eb653debbe390dc69ca390b9d27e326effb01ebf4b",
     "tools/check_tree.py": "a6ebf4b947530b76345fccc453ff19c0730df7102cadd69e97b0cc678c6d73c0",
     "tools/check_public_runtime.py": "9f627cccfeefec4dfb7a5257db7b89c31c11a5a149bdd3634e9517e3fa36b756",
@@ -138,7 +138,28 @@
     "tests/config_bridge.c": "1ab18a123d0cb6b156c3817209426ee51651b94eae97ed1038ec17d3ccaf49a4",
     "tests/test_host_projection.py": "0b982f139389014b61d75bfa6b9d8a85ebd2bebb82f9c6a4a2d0981e43eee9bc",
     "cells_projection.py": "df21e83b60105b965a923e0b605df5b4edd838b65f3f2af4296898cd45fe0490",
-    "picker_projection.py": "7edcf73c464d3dbea01cc280eae391f7ec142a8880a29cf0f01d5807045ae703"
+    "picker_projection.py": "7edcf73c464d3dbea01cc280eae391f7ec142a8880a29cf0f01d5807045ae703",
+    "receiver/build-max.sh": "0690a889b466b1dd73ad85b32d6807afbf2e022d325e907587e69386c1dac9f7",
+    "receiver/package-max.py": "6c56308cefcfdf565d35db906db112014dffcce0e60784a3dddafd9d454df9d3",
+    "receiver/picker-start.sh": "fbf70405e99adfd19f5d56aa8a49ddac481de443afc8099b0b9b2636eceb646a",
+    "vrx/map_runtime/src/ascent_frame.c": "71e0ccb5d5179ef8ec96071761a6246f8bd426484c9f39e113943f188f366a2f",
+    "vrx/map_runtime/src/ascent_frame.h": "0abb794b3f5e6c6ed24340534e30bd86e33a9aa0f5ef2a56baeac27521814de7",
+    "vrx/map_runtime/src/ascent_frame_overlay.c": "63b5cb77913cba936df52e24ed2104d4517e21ae62a3333b93f8645cdb97c381",
+    "vrx/map_runtime/src/ascent_overlay.c": "6d8650919e6119bb146f6f77f9109f47e15679908d2ec7389f46b8e53e8936dc",
+    "vrx/map_runtime/src/ascent_overlay.h": "c9c203f226e31eb96de16ba43124090498bc99cc1b98895223e62d2fdc387f21",
+    "vrx/map_runtime/src/ascent_picker_probe.c": "8538a7d31ef0570171ba20c6c813c776c31444c14a44c0e89f0ecd49d2b207e9",
+    "vrx/map_runtime/src/ascent_pickerbar.c": "4c00216f48be8fc8426b70c5b2cbf530009bcb91072f825031fe41a3ffe5583a",
+    "vrx/map_runtime/src/ascent_pickerbar.h": "26fe4bcc16bec2a0d7dfa64d8adcf0eac6de83000d2dee36d955ae5f4f1171b3",
+    "vrx/map_runtime/src/ascent_render.c": "0c24ea2691a6b8dcdfa74592588c65e1f62a8a11cb7278bce65be5d40c5497fc",
+    "vrx/map_runtime/src/ascent_render.h": "8097b3c33ec94b0ce5c21b05cb84ec067e5d8ca091f8db96f08c2a6e213bf898",
+    "vrx/map_runtime/src/ascent_surface.c": "a03864697e948e9a39a91babf3552797784124e983419e8ebaac7a269a65c192",
+    "vrx/map_runtime/src/ascent_surface.h": "2c12b49160d2ab9d28a4b31d46642c7cd52895a788f903f30b8678d60a6b6e10",
+    "vrx/map_runtime/src/ascent_tap_core.c": "7dd2756837439ac6a0f8de49cbcd44fb43837ed1d367b38b31c9e8d1a80cde99",
+    "vrx/map_runtime/src/ascent_tap_core.h": "641ef9875308b60cd6dae515d1e0653cd148d4a0b687b2ca3c3ad033115b0c0d",
+    "vrx/map_runtime/src/ascent_uart_mirror_tap.c": "cb62205801356894db385002ddb92b99a295bad0d72ddda26348facd55bcc0c3",
+    "vrx/map_runtime/src/ascent_vis_policy.c": "5edf3cbcabc481aba36e15c4cf1882a560fdef53768dd53f200641edd5465665",
+    "vrx/map_runtime/src/ascent_vis_policy.h": "f763fd6c9c96c89b05b850009062f7de52b2927e3d1f2e1f99ecaf645e4478df",
+    "vrx/map_runtime/src/picker_icons_data.h": "da3343e58115935e2426402f44ce4e7d38ac59fb6640672021813627be34869c"
   },
   "full_runtime_gate": "Explicit native-subset inventory profile; not full widget or release approval",
   "candidate_update": {
@@ -156,5 +177,29 @@
       "vrx/map_runtime/src/ascent_sw_rpc.h",
       "vrx/map_runtime/tests/test_pctl.c"
     ]
+  },
+  "max_release_build": {
+    "source_inputs": [
+      "vrx/map_runtime/src/ascent_frame.c",
+      "vrx/map_runtime/src/ascent_frame.h",
+      "vrx/map_runtime/src/ascent_frame_overlay.c",
+      "vrx/map_runtime/src/ascent_overlay.c",
+      "vrx/map_runtime/src/ascent_overlay.h",
+      "vrx/map_runtime/src/ascent_picker_probe.c",
+      "vrx/map_runtime/src/ascent_pickerbar.c",
+      "vrx/map_runtime/src/ascent_pickerbar.h",
+      "vrx/map_runtime/src/ascent_render.c",
+      "vrx/map_runtime/src/ascent_render.h",
+      "vrx/map_runtime/src/ascent_surface.c",
+      "vrx/map_runtime/src/ascent_surface.h",
+      "vrx/map_runtime/src/ascent_tap_core.c",
+      "vrx/map_runtime/src/ascent_tap_core.h",
+      "vrx/map_runtime/src/ascent_uart_mirror_tap.c",
+      "vrx/map_runtime/src/ascent_vis_policy.c",
+      "vrx/map_runtime/src/ascent_vis_policy.h",
+      "vrx/map_runtime/src/picker_icons_data.h"
+    ],
+    "recipe": "receiver/build-max.sh",
+    "archive_recipe": "receiver/package-max.py"
   }
 }

@@ -4,13 +4,13 @@
   "stage": "native-subset",
   "files": {
     "README.md": {
-      "sha256": "f9fcdce8f1d0ba208d38eb74532d057032e18d9a715f7362affd253adcee200a",
-      "bytes": 836,
+      "sha256": "c81d4f08982dd11a18f549e1305f848769c073003f72514b74f819fa3f6ecaf9",
+      "bytes": 1276,
       "role": "document"
     },
     "SOURCE_MANIFEST.json": {
-      "sha256": "0871b80e4304a087a449d6743e4e3dc3ccce230ab87164b9352458322a08de9f",
-      "bytes": 12456,
+      "sha256": "cb4e3a3d9ea07ae0d0cb491d2186455bc3e106d3a4d297cb343f81aeb44ea779",
+      "bytes": 15798,
       "role": "document"
     },
     "cells_projection.py": {
@@ -237,6 +237,111 @@
       "sha256": "748587691c8056ca3b03902a216307520fceed3f1e616c0a594f4c0ae8dfc631",
       "bytes": 11715,
       "role": "test"
+    },
+    "receiver/build-max.sh": {
+      "sha256": "0690a889b466b1dd73ad85b32d6807afbf2e022d325e907587e69386c1dac9f7",
+      "bytes": 3692,
+      "role": "build"
+    },
+    "receiver/package-max.py": {
+      "sha256": "6c56308cefcfdf565d35db906db112014dffcce0e60784a3dddafd9d454df9d3",
+      "bytes": 1125,
+      "role": "build"
+    },
+    "receiver/picker-start.sh": {
+      "sha256": "fbf70405e99adfd19f5d56aa8a49ddac481de443afc8099b0b9b2636eceb646a",
+      "bytes": 2993,
+      "role": "build"
+    },
+    "vrx/map_runtime/src/ascent_frame.c": {
+      "sha256": "71e0ccb5d5179ef8ec96071761a6246f8bd426484c9f39e113943f188f366a2f",
+      "bytes": 10129,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_frame.h": {
+      "sha256": "0abb794b3f5e6c6ed24340534e30bd86e33a9aa0f5ef2a56baeac27521814de7",
+      "bytes": 8259,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_frame_overlay.c": {
+      "sha256": "63b5cb77913cba936df52e24ed2104d4517e21ae62a3333b93f8645cdb97c381",
+      "bytes": 96896,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_overlay.c": {
+      "sha256": "6d8650919e6119bb146f6f77f9109f47e15679908d2ec7389f46b8e53e8936dc",
+      "bytes": 7781,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_overlay.h": {
+      "sha256": "c9c203f226e31eb96de16ba43124090498bc99cc1b98895223e62d2fdc387f21",
+      "bytes": 7029,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_picker_probe.c": {
+      "sha256": "8538a7d31ef0570171ba20c6c813c776c31444c14a44c0e89f0ecd49d2b207e9",
+      "bytes": 4503,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_pickerbar.c": {
+      "sha256": "4c00216f48be8fc8426b70c5b2cbf530009bcb91072f825031fe41a3ffe5583a",
+      "bytes": 18103,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_pickerbar.h": {
+      "sha256": "26fe4bcc16bec2a0d7dfa64d8adcf0eac6de83000d2dee36d955ae5f4f1171b3",
+      "bytes": 6020,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_render.c": {
+      "sha256": "0c24ea2691a6b8dcdfa74592588c65e1f62a8a11cb7278bce65be5d40c5497fc",
+      "bytes": 11895,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_render.h": {
+      "sha256": "8097b3c33ec94b0ce5c21b05cb84ec067e5d8ca091f8db96f08c2a6e213bf898",
+      "bytes": 3056,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_surface.c": {
+      "sha256": "a03864697e948e9a39a91babf3552797784124e983419e8ebaac7a269a65c192",
+      "bytes": 1445,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_surface.h": {
+      "sha256": "2c12b49160d2ab9d28a4b31d46642c7cd52895a788f903f30b8678d60a6b6e10",
+      "bytes": 4895,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_tap_core.c": {
+      "sha256": "7dd2756837439ac6a0f8de49cbcd44fb43837ed1d367b38b31c9e8d1a80cde99",
+      "bytes": 2545,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_tap_core.h": {
+      "sha256": "641ef9875308b60cd6dae515d1e0653cd148d4a0b687b2ca3c3ad033115b0c0d",
+      "bytes": 2617,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_uart_mirror_tap.c": {
+      "sha256": "cb62205801356894db385002ddb92b99a295bad0d72ddda26348facd55bcc0c3",
+      "bytes": 15236,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_vis_policy.c": {
+      "sha256": "5edf3cbcabc481aba36e15c4cf1882a560fdef53768dd53f200641edd5465665",
+      "bytes": 3329,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_vis_policy.h": {
+      "sha256": "f763fd6c9c96c89b05b850009062f7de52b2927e3d1f2e1f99ecaf645e4478df",
+      "bytes": 3733,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/picker_icons_data.h": {
+      "sha256": "da3343e58115935e2426402f44ce4e7d38ac59fb6640672021813627be34869c",
+      "bytes": 127484,
+      "role": "runtime"
     }
   },
   "include_roots": [

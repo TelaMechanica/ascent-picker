@@ -13,3 +13,16 @@ observed runtime state. The caller must bind membership to the selected receiver
 Run `python3 -B -m unittest discover -s tests` with GCC available; the test bridge
 compiles native parser/geometry/validation helpers and never runs a receiver daemon
 or invokes an RF operation.
+
+## MAX receiver build
+
+With AArch64 GCC and binutils installed, build into a separate directory and
+create the archive and its digest inventory:
+
+```sh
+sh receiver/build-max.sh /tmp/picker-max-build
+python3 receiver/package-max.py /tmp/picker-max-build /tmp/picker-max.zip
+```
+
+This is the MAX runtime and startup package. Receiver installation, update and
+rollback require the approved Widget Manager release inventory and qualification.
