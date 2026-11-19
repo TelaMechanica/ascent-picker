@@ -1,0 +1,160 @@
+{
+  "name": "ascent-picker",
+  "status": "LOCAL_SANITIZED_SUBSET_NOT_RELEASE",
+  "source_mutated": false,
+  "source_inputs": {
+    "vrx/map_runtime/src/ascent_aircraft_rc.h": "0ff3aad0ffe59281b796383ed155de044f87fbe3f6479b2c3c537d2145da218e",
+    "vrx/map_runtime/src/ascent_cells.c": "7021c9b58dbce7e95cc5e896d6a64bfb75a98678710379024f51409e7c978711",
+    "vrx/map_runtime/src/ascent_cells.h": "d9e9d2f894555a692a3e8d6e76bca6443d4b43b10e1ead45adbc9d640bb2e475",
+    "vrx/map_runtime/src/ascent_crsf.c": "e5663db302dfb71186868bd5c38e82d565569744e200ba2a59711229e661d255",
+    "vrx/map_runtime/src/ascent_crsf.h": "beaca5f1cb7b2a7882eb4fefd629a8a7444d12b4547fa648fb859aea7ba5f36b",
+    "vrx/map_runtime/src/ascent_geo.c": "c41bb45de3fe1d4902e998e3d67fdb02ae25e0fea0af04e1ed3178ab9d6d600f",
+    "vrx/map_runtime/src/ascent_geo.h": "cd69992645e1a78c99d14aef43d9f359b3b1073527b80d2be475d3376324a9cd",
+    "vrx/map_runtime/src/ascent_mavlink.c": "b55eb8e013e512436102630cc4b74267a905da7fe03f025dacf52f90e6eb6b32",
+    "vrx/map_runtime/src/ascent_mavlink.h": "e394ac8b1082cbd0971b5d0ec7ce043c4a13a17b68e1932f32f21c9a02cc5de9",
+    "vrx/map_runtime/src/ascent_msp.h": "49cd8b44ccb12d0f010d738d285105d7e4007da6f9d5f294334cd70eccebf343",
+    "vrx/map_runtime/src/ascent_picker_cfg.c": "739e90474d1ccf1ad707ca9a06a987e2e5e054dc60d1650c1682d39e6dd403c5",
+    "vrx/map_runtime/src/ascent_picker_cfg.h": "fbb93e3537c7316be135e844a51fc2f8528dbbc2956023c1f9c06194d1f1991f",
+    "vrx/map_runtime/src/ascent_picker_ctl.c": "163afe1aba836836ef951444ac53b41eae04d1e1b2aa57e03b382e2aecd83b65",
+    "vrx/map_runtime/src/ascent_picker_ctl.h": "c269fde0fb083301b99ae6027edb5ee73c85f632f1b58a6e0d37bf5507bc6f3d",
+    "vrx/map_runtime/src/ascent_picker_ipc.c": "b5838547974c90daf15c657b7a89886f428916df82544bc16af54fe96bace282",
+    "vrx/map_runtime/src/ascent_picker_ipc.h": "7ed3e0a28456fe243267a397dd0811ad3d5b5c6e252fa836e27097a8927a8326",
+    "vrx/map_runtime/src/ascent_picker_osd.c": "fe9c633d7573e1f9cc3e3aac06c8774d36d95b72640e1b788b4aac89dcd0cc25",
+    "vrx/map_runtime/src/ascent_picker_osd.h": "ca4cd1664598426ac4a797a30bf500439b7a06fb908c4ed16a69174d4ba36ada",
+    "vrx/map_runtime/src/ascent_picker_rt.c": "730b888fe40389e57ae4069c6b6c0fe86743894fe98b62e800004cd174cca3c6",
+    "vrx/map_runtime/src/ascent_rc_source.c": "8435980d011d9f21f2348b7cabc243b6f170ca1fd0ca329064ffe2deb692cdfc",
+    "vrx/map_runtime/src/ascent_rc_source.h": "1b134adf9dc347ac6e7f2473f1593a741b2e4fb837b9de1d108e1d2751ee62f0",
+    "vrx/map_runtime/src/ascent_ring.c": "dcf19ece6a004030a3136275d48bdbf27ee61aa16d89c96c80c48bc6def7f54b",
+    "vrx/map_runtime/src/ascent_ring.h": "a4d5eb2ac60c966b24067eb5d0eeaf39a610a76059ce5193823a1650eb5c9839",
+    "vrx/map_runtime/src/ascent_sw_rpc.c": "955ef84a535515330a948bb8e448551c6bf54a605c767d40d05bde1b4688172d",
+    "vrx/map_runtime/src/ascent_sw_rpc.h": "43018e0d71878087a462fbdb4e9ea484256bed49789253e6fbfe310f13f188f7",
+    "vrx/map_runtime/src/ascent_switch.c": "32de717d795822f065f1cc0a9c6500ecb3dde7f9d5da9f0152e0d1398e7f12f9",
+    "vrx/map_runtime/src/ascent_switch.h": "bdeef649da240b7fa74634bde4a30d87e2d1ca0f21efb5ca617a320403ed8d8c",
+    "vrx/map_runtime/src/ascent_sys.h": "d8d80e1ad0081bbf5218b349a47b6b50e9ae676251f263831986454ef6ce2b37",
+    "vrx/map_runtime/src/ascent_types.h": "807d176951590c41ef1261f312d680c41c70f1c456d5438b91f9448d7f9425ec",
+    "vrx/map_runtime/tests/atest.h": "89896fb03dacacd95ab395e2770da78471172ce66fd0cbab06e216b840f8c4cf",
+    "vrx/map_runtime/tests/frames.h": "aff6c3217acc2a20acca21de340b8e1defffcb58528cbafea14ddc86aef67537",
+    "vrx/map_runtime/tests/test_cells.c": "c25cb33ac7f75ac582c157736fb11fdf8a2e9d33757a3c0d954bf334e9f113ae",
+    "vrx/map_runtime/tests/test_pctl.c": "e0728a08783f5a168891194096dd6d29c174c26e6c307847cacc2e1e77d7e60a",
+    "vrx/map_runtime/tests/test_picker_glue.c": "6b18ebcbed805d60f07b431f7ceb43cf6a964d17c9919c2f2c1e10a129991b0b",
+    "vrx/map_runtime/tests/test_picker_rc_source.c": "4c9f721b68a8800dd92e7cb79e0f5d405288f9f0b827647db0a2a48282c44fd8",
+    "vrx/map_runtime/tests/test_switch.c": "748587691c8056ca3b03902a216307520fceed3f1e616c0a594f4c0ae8dfc631",
+    "runtime/caddx_picker_cells.py": "684f965d7b2758426ffff3e1152c1c7cbd8045ea2fcfd622c6871c179ac56f17",
+    "runtime/caddx_picker_projection.py": "d0095a8383592c6271144ada7fbfde7efd2bf7596d4b4a0e6f9f4f79ecceeadd"
+  },
+  "tests": 5,
+  "omitted": "Full host UI/deployment, private bootstrap, binaries, captures and standalone lifecycle",
+  "transformations": [
+    {
+      "path": "vrx/map_runtime/src/ascent_picker_cfg.c",
+      "reason": "Replace comment-only identity examples; executable tokens unchanged"
+    },
+    {
+      "path": "vrx/map_runtime/src/ascent_picker_cfg.h",
+      "reason": "Replace comment-only identity examples; executable tokens unchanged"
+    },
+    {
+      "path": "vrx/map_runtime/src/ascent_picker_ipc.h",
+      "reason": "Replace comment-only identity examples; executable tokens unchanged"
+    },
+    {
+      "path": "vrx/map_runtime/tests/test_picker_glue.c",
+      "reason": "Replace historical test identities/label with synthetic fixtures; preserve assertions"
+    },
+    {
+      "path": "vrx/map_runtime/src/ascent_sys.h",
+      "reason": "Omit unused multicast macro and neutralize cross-feature historical comment references; original evidence retained"
+    },
+    {
+      "path": "vrx/map_runtime/src/ascent_types.h",
+      "reason": "Omit unused multicast macro and neutralize cross-feature historical comment references; original evidence retained"
+    },
+    {
+      "path": "vrx/map_runtime/src/ascent_geo.h",
+      "reason": "Omit unused multicast macro and neutralize cross-feature historical comment references; original evidence retained"
+    },
+    {
+      "path": "cells_projection.py",
+      "operation": "Select read-only geometry helpers/constants; omit stateful classify and switching state"
+    },
+    {
+      "path": "picker_projection.py",
+      "operation": "Bind geometry import locally; construct format-only sentinels without literal identity examples; preserve native serializer/configuration semantics"
+    },
+    {
+      "path": "picker_projection.py",
+      "source_revision": "632c294431d030292b562e83749d10ce15f8c7d6",
+      "operation": "Keep configured PWM slots stable by serializing unavailable slots as empty; use shared receiver-owned runtime and line format."
+    }
+  ],
+  "validation_tools": {
+    "tools/check_tree.py": "a6ebf4b947530b76345fccc453ff19c0730df7102cadd69e97b0cc678c6d73c0",
+    "tools/check_public_runtime.py": "9f627cccfeefec4dfb7a5257db7b89c31c11a5a149bdd3634e9517e3fa36b756",
+    "tools/privacy_review.py": "df4fced039d91adcdaa0f73d4a2c75243a9c6e3c60a4000782727b69c974389f"
+  },
+  "export_files": {
+    "host-checks.json": "038e6a5960554faf1ab74ced281ed0913c1039893e9318536d71ee72b04e044a",
+    "README.md": "30d5f13a2b775cebcbef31d1e0a0fcbc08eeffa0510264e317d34efd0bd0214f",
+    "run_host_checks.py": "1d35ef7a30e94280c92c70eb653debbe390dc69ca390b9d27e326effb01ebf4b",
+    "tools/check_tree.py": "a6ebf4b947530b76345fccc453ff19c0730df7102cadd69e97b0cc678c6d73c0",
+    "tools/check_public_runtime.py": "9f627cccfeefec4dfb7a5257db7b89c31c11a5a149bdd3634e9517e3fa36b756",
+    "tools/privacy_review.py": "df4fced039d91adcdaa0f73d4a2c75243a9c6e3c60a4000782727b69c974389f",
+    "vrx/map_runtime/tests/test_picker_rc_source.c": "4c9f721b68a8800dd92e7cb79e0f5d405288f9f0b827647db0a2a48282c44fd8",
+    "vrx/map_runtime/tests/frames.h": "aff6c3217acc2a20acca21de340b8e1defffcb58528cbafea14ddc86aef67537",
+    "vrx/map_runtime/tests/test_switch.c": "748587691c8056ca3b03902a216307520fceed3f1e616c0a594f4c0ae8dfc631",
+    "vrx/map_runtime/tests/atest.h": "89896fb03dacacd95ab395e2770da78471172ce66fd0cbab06e216b840f8c4cf",
+    "vrx/map_runtime/tests/test_cells.c": "c25cb33ac7f75ac582c157736fb11fdf8a2e9d33757a3c0d954bf334e9f113ae",
+    "vrx/map_runtime/tests/test_picker_glue.c": "6a190f290218d3e99287674d0a79c74338035a6c6cccd94eb70c54206d88324a",
+    "vrx/map_runtime/tests/test_pctl.c": "e0728a08783f5a168891194096dd6d29c174c26e6c307847cacc2e1e77d7e60a",
+    "vrx/map_runtime/src/ascent_switch.h": "bdeef649da240b7fa74634bde4a30d87e2d1ca0f21efb5ca617a320403ed8d8c",
+    "vrx/map_runtime/src/ascent_aircraft_rc.h": "0ff3aad0ffe59281b796383ed155de044f87fbe3f6479b2c3c537d2145da218e",
+    "vrx/map_runtime/src/ascent_ring.c": "dcf19ece6a004030a3136275d48bdbf27ee61aa16d89c96c80c48bc6def7f54b",
+    "vrx/map_runtime/src/ascent_geo.c": "c41bb45de3fe1d4902e998e3d67fdb02ae25e0fea0af04e1ed3178ab9d6d600f",
+    "vrx/map_runtime/src/ascent_crsf.c": "e5663db302dfb71186868bd5c38e82d565569744e200ba2a59711229e661d255",
+    "vrx/map_runtime/src/ascent_picker_ipc.h": "9a09a5e73e114be8cc9343cbfbe201d71b2d8e25c5f6c1913b9fb60d62e596c1",
+    "vrx/map_runtime/src/ascent_sw_rpc.c": "955ef84a535515330a948bb8e448551c6bf54a605c767d40d05bde1b4688172d",
+    "vrx/map_runtime/src/ascent_picker_osd.c": "fe9c633d7573e1f9cc3e3aac06c8774d36d95b72640e1b788b4aac89dcd0cc25",
+    "vrx/map_runtime/src/ascent_picker_ipc.c": "b5838547974c90daf15c657b7a89886f428916df82544bc16af54fe96bace282",
+    "vrx/map_runtime/src/ascent_mavlink.c": "b55eb8e013e512436102630cc4b74267a905da7fe03f025dacf52f90e6eb6b32",
+    "vrx/map_runtime/src/ascent_picker_osd.h": "ca4cd1664598426ac4a797a30bf500439b7a06fb908c4ed16a69174d4ba36ada",
+    "vrx/map_runtime/src/ascent_ring.h": "a4d5eb2ac60c966b24067eb5d0eeaf39a610a76059ce5193823a1650eb5c9839",
+    "vrx/map_runtime/src/ascent_cells.h": "d9e9d2f894555a692a3e8d6e76bca6443d4b43b10e1ead45adbc9d640bb2e475",
+    "vrx/map_runtime/src/ascent_picker_cfg.h": "af9774fa19943a42e0db8b554b6cc614b4585aa31abdea7d09e40414efdd503d",
+    "vrx/map_runtime/src/ascent_rc_source.h": "1b134adf9dc347ac6e7f2473f1593a741b2e4fb837b9de1d108e1d2751ee62f0",
+    "vrx/map_runtime/src/ascent_sw_rpc.h": "43018e0d71878087a462fbdb4e9ea484256bed49789253e6fbfe310f13f188f7",
+    "vrx/map_runtime/src/ascent_picker_rt.c": "730b888fe40389e57ae4069c6b6c0fe86743894fe98b62e800004cd174cca3c6",
+    "vrx/map_runtime/src/ascent_picker_cfg.c": "05c92169f075ec6bc1537e6dc78dddaab79a9eda71e1f6599a35af4831d9a462",
+    "vrx/map_runtime/src/ascent_crsf.h": "beaca5f1cb7b2a7882eb4fefd629a8a7444d12b4547fa648fb859aea7ba5f36b",
+    "vrx/map_runtime/src/ascent_cells.c": "7021c9b58dbce7e95cc5e896d6a64bfb75a98678710379024f51409e7c978711",
+    "vrx/map_runtime/src/ascent_mavlink.h": "e394ac8b1082cbd0971b5d0ec7ce043c4a13a17b68e1932f32f21c9a02cc5de9",
+    "vrx/map_runtime/src/ascent_sys.h": "2cdb041c944a8d8049bca397c39bcc5f9ddd582cdb825c97629a9541db307e0a",
+    "vrx/map_runtime/src/ascent_switch.c": "32de717d795822f065f1cc0a9c6500ecb3dde7f9d5da9f0152e0d1398e7f12f9",
+    "vrx/map_runtime/src/ascent_msp.h": "49cd8b44ccb12d0f010d738d285105d7e4007da6f9d5f294334cd70eccebf343",
+    "vrx/map_runtime/src/ascent_rc_source.c": "8435980d011d9f21f2348b7cabc243b6f170ca1fd0ca329064ffe2deb692cdfc",
+    "vrx/map_runtime/src/ascent_geo.h": "00a808e1f39769f73b36e769d30a92e149693e6515b4aeab2c3043735b39bdc3",
+    "vrx/map_runtime/src/ascent_picker_ctl.h": "c269fde0fb083301b99ae6027edb5ee73c85f632f1b58a6e0d37bf5507bc6f3d",
+    "vrx/map_runtime/src/ascent_types.h": "e3c581c13357dabd46c58572b16dff9d7a753577e7116d33c4517be779f51730",
+    "vrx/map_runtime/src/ascent_picker_ctl.c": "163afe1aba836836ef951444ac53b41eae04d1e1b2aa57e03b382e2aecd83b65",
+    "tests/config_bridge.c": "1ab18a123d0cb6b156c3817209426ee51651b94eae97ed1038ec17d3ccaf49a4",
+    "tests/test_host_projection.py": "0b982f139389014b61d75bfa6b9d8a85ebd2bebb82f9c6a4a2d0981e43eee9bc",
+    "cells_projection.py": "df21e83b60105b965a923e0b605df5b4edd838b65f3f2af4296898cd45fe0490",
+    "picker_projection.py": "7edcf73c464d3dbea01cc280eae391f7ec142a8880a29cf0f01d5807045ae703"
+  },
+  "full_runtime_gate": "Explicit native-subset inventory profile; not full widget or release approval",
+  "candidate_update": {
+    "source_revision": "632c294431d030292b562e83749d10ce15f8c7d6",
+    "source_state": "unmerged private review branch",
+    "changed_exports": [
+      "picker_projection.py",
+      "tests/test_host_projection.py",
+      "vrx/map_runtime/src/ascent_cells.h",
+      "vrx/map_runtime/src/ascent_picker_cfg.c",
+      "vrx/map_runtime/src/ascent_picker_ctl.c",
+      "vrx/map_runtime/src/ascent_picker_ipc.c",
+      "vrx/map_runtime/src/ascent_picker_osd.c",
+      "vrx/map_runtime/src/ascent_sw_rpc.c",
+      "vrx/map_runtime/src/ascent_sw_rpc.h",
+      "vrx/map_runtime/tests/test_pctl.c"
+    ]
+  }
+}

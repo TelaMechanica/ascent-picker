@@ -1,0 +1,266 @@
+{
+  "schema": "ascent.widget.source_inventory.v1",
+  "widget": "picker",
+  "stage": "native-subset",
+  "files": {
+    "README.md": {
+      "sha256": "30d5f13a2b775cebcbef31d1e0a0fcbc08eeffa0510264e317d34efd0bd0214f",
+      "bytes": 954,
+      "role": "document"
+    },
+    "SOURCE_MANIFEST.json": {
+      "sha256": "f222d11e5d9714547112eee3542c0c398ae429c958eaf6df1d5c801a47217477",
+      "bytes": 12456,
+      "role": "document"
+    },
+    "cells_projection.py": {
+      "role": "runtime",
+      "sha256": "df21e83b60105b965a923e0b605df5b4edd838b65f3f2af4296898cd45fe0490",
+      "bytes": 1360
+    },
+    "host-checks.json": {
+      "sha256": "038e6a5960554faf1ab74ced281ed0913c1039893e9318536d71ee72b04e044a",
+      "bytes": 1065,
+      "role": "build"
+    },
+    "picker_projection.py": {
+      "role": "runtime",
+      "sha256": "7edcf73c464d3dbea01cc280eae391f7ec142a8880a29cf0f01d5807045ae703",
+      "bytes": 5370
+    },
+    "run_host_checks.py": {
+      "sha256": "1d35ef7a30e94280c92c70eb653debbe390dc69ca390b9d27e326effb01ebf4b",
+      "bytes": 1225,
+      "role": "tool"
+    },
+    "tests/config_bridge.c": {
+      "role": "test",
+      "sha256": "1ab18a123d0cb6b156c3817209426ee51651b94eae97ed1038ec17d3ccaf49a4",
+      "bytes": 732
+    },
+    "tests/test_host_projection.py": {
+      "role": "test",
+      "sha256": "0b982f139389014b61d75bfa6b9d8a85ebd2bebb82f9c6a4a2d0981e43eee9bc",
+      "bytes": 5174
+    },
+    "tools/check_public_runtime.py": {
+      "sha256": "9f627cccfeefec4dfb7a5257db7b89c31c11a5a149bdd3634e9517e3fa36b756",
+      "bytes": 11567,
+      "role": "tool"
+    },
+    "tools/check_tree.py": {
+      "sha256": "a6ebf4b947530b76345fccc453ff19c0730df7102cadd69e97b0cc678c6d73c0",
+      "bytes": 1494,
+      "role": "tool"
+    },
+    "tools/privacy_review.py": {
+      "sha256": "df4fced039d91adcdaa0f73d4a2c75243a9c6e3c60a4000782727b69c974389f",
+      "bytes": 13695,
+      "role": "tool"
+    },
+    "vrx/map_runtime/src/ascent_aircraft_rc.h": {
+      "sha256": "0ff3aad0ffe59281b796383ed155de044f87fbe3f6479b2c3c537d2145da218e",
+      "bytes": 955,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_cells.c": {
+      "sha256": "7021c9b58dbce7e95cc5e896d6a64bfb75a98678710379024f51409e7c978711",
+      "bytes": 2431,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_cells.h": {
+      "sha256": "d9e9d2f894555a692a3e8d6e76bca6443d4b43b10e1ead45adbc9d640bb2e475",
+      "bytes": 3474,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_crsf.c": {
+      "sha256": "e5663db302dfb71186868bd5c38e82d565569744e200ba2a59711229e661d255",
+      "bytes": 7153,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_crsf.h": {
+      "sha256": "beaca5f1cb7b2a7882eb4fefd629a8a7444d12b4547fa648fb859aea7ba5f36b",
+      "bytes": 4488,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_geo.c": {
+      "sha256": "c41bb45de3fe1d4902e998e3d67fdb02ae25e0fea0af04e1ed3178ab9d6d600f",
+      "bytes": 2554,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_geo.h": {
+      "sha256": "00a808e1f39769f73b36e769d30a92e149693e6515b4aeab2c3043735b39bdc3",
+      "bytes": 1171,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_mavlink.c": {
+      "sha256": "b55eb8e013e512436102630cc4b74267a905da7fe03f025dacf52f90e6eb6b32",
+      "bytes": 10369,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_mavlink.h": {
+      "sha256": "e394ac8b1082cbd0971b5d0ec7ce043c4a13a17b68e1932f32f21c9a02cc5de9",
+      "bytes": 5156,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_msp.h": {
+      "sha256": "49cd8b44ccb12d0f010d738d285105d7e4007da6f9d5f294334cd70eccebf343",
+      "bytes": 3460,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_picker_cfg.c": {
+      "sha256": "05c92169f075ec6bc1537e6dc78dddaab79a9eda71e1f6599a35af4831d9a462",
+      "bytes": 10279,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_picker_cfg.h": {
+      "sha256": "af9774fa19943a42e0db8b554b6cc614b4585aa31abdea7d09e40414efdd503d",
+      "bytes": 2280,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_picker_ctl.c": {
+      "sha256": "163afe1aba836836ef951444ac53b41eae04d1e1b2aa57e03b382e2aecd83b65",
+      "bytes": 8340,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_picker_ctl.h": {
+      "sha256": "c269fde0fb083301b99ae6027edb5ee73c85f632f1b58a6e0d37bf5507bc6f3d",
+      "bytes": 5005,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_picker_ipc.c": {
+      "sha256": "b5838547974c90daf15c657b7a89886f428916df82544bc16af54fe96bace282",
+      "bytes": 4679,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_picker_ipc.h": {
+      "sha256": "9a09a5e73e114be8cc9343cbfbe201d71b2d8e25c5f6c1913b9fb60d62e596c1",
+      "bytes": 1269,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_picker_osd.c": {
+      "sha256": "fe9c633d7573e1f9cc3e3aac06c8774d36d95b72640e1b788b4aac89dcd0cc25",
+      "bytes": 2591,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_picker_osd.h": {
+      "sha256": "ca4cd1664598426ac4a797a30bf500439b7a06fb908c4ed16a69174d4ba36ada",
+      "bytes": 941,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_picker_rt.c": {
+      "sha256": "730b888fe40389e57ae4069c6b6c0fe86743894fe98b62e800004cd174cca3c6",
+      "bytes": 10877,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_rc_source.c": {
+      "sha256": "8435980d011d9f21f2348b7cabc243b6f170ca1fd0ca329064ffe2deb692cdfc",
+      "bytes": 2609,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_rc_source.h": {
+      "sha256": "1b134adf9dc347ac6e7f2473f1593a741b2e4fb837b9de1d108e1d2751ee62f0",
+      "bytes": 1388,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_ring.c": {
+      "sha256": "dcf19ece6a004030a3136275d48bdbf27ee61aa16d89c96c80c48bc6def7f54b",
+      "bytes": 6677,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_ring.h": {
+      "sha256": "a4d5eb2ac60c966b24067eb5d0eeaf39a610a76059ce5193823a1650eb5c9839",
+      "bytes": 5067,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_sw_rpc.c": {
+      "sha256": "955ef84a535515330a948bb8e448551c6bf54a605c767d40d05bde1b4688172d",
+      "bytes": 10893,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_sw_rpc.h": {
+      "sha256": "43018e0d71878087a462fbdb4e9ea484256bed49789253e6fbfe310f13f188f7",
+      "bytes": 1175,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_switch.c": {
+      "sha256": "32de717d795822f065f1cc0a9c6500ecb3dde7f9d5da9f0152e0d1398e7f12f9",
+      "bytes": 9293,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_switch.h": {
+      "sha256": "bdeef649da240b7fa74634bde4a30d87e2d1ca0f21efb5ca617a320403ed8d8c",
+      "bytes": 6695,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_sys.h": {
+      "sha256": "2cdb041c944a8d8049bca397c39bcc5f9ddd582cdb825c97629a9541db307e0a",
+      "bytes": 4840,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/src/ascent_types.h": {
+      "sha256": "e3c581c13357dabd46c58572b16dff9d7a753577e7116d33c4517be779f51730",
+      "bytes": 3906,
+      "role": "runtime"
+    },
+    "vrx/map_runtime/tests/atest.h": {
+      "sha256": "89896fb03dacacd95ab395e2770da78471172ce66fd0cbab06e216b840f8c4cf",
+      "bytes": 1740,
+      "role": "test"
+    },
+    "vrx/map_runtime/tests/frames.h": {
+      "sha256": "aff6c3217acc2a20acca21de340b8e1defffcb58528cbafea14ddc86aef67537",
+      "bytes": 6980,
+      "role": "test"
+    },
+    "vrx/map_runtime/tests/test_cells.c": {
+      "sha256": "c25cb33ac7f75ac582c157736fb11fdf8a2e9d33757a3c0d954bf334e9f113ae",
+      "bytes": 5811,
+      "role": "test"
+    },
+    "vrx/map_runtime/tests/test_pctl.c": {
+      "sha256": "e0728a08783f5a168891194096dd6d29c174c26e6c307847cacc2e1e77d7e60a",
+      "bytes": 17960,
+      "role": "test"
+    },
+    "vrx/map_runtime/tests/test_picker_glue.c": {
+      "sha256": "6a190f290218d3e99287674d0a79c74338035a6c6cccd94eb70c54206d88324a",
+      "bytes": 8219,
+      "role": "test"
+    },
+    "vrx/map_runtime/tests/test_picker_rc_source.c": {
+      "sha256": "4c9f721b68a8800dd92e7cb79e0f5d405288f9f0b827647db0a2a48282c44fd8",
+      "bytes": 4838,
+      "role": "test"
+    },
+    "vrx/map_runtime/tests/test_switch.c": {
+      "sha256": "748587691c8056ca3b03902a216307520fceed3f1e616c0a594f4c0ae8dfc631",
+      "bytes": 11715,
+      "role": "test"
+    }
+  },
+  "include_roots": [
+    "vrx/map_runtime/src",
+    "vrx/map_runtime/tests"
+  ],
+  "system_headers": [
+    "dlfcn.h",
+    "errno.h",
+    "fcntl.h",
+    "poll.h",
+    "setjmp.h",
+    "signal.h",
+    "stdio.h",
+    "stdlib.h",
+    "string.h",
+    "sys/mman.h",
+    "sys/socket.h",
+    "sys/time.h",
+    "time.h",
+    "unistd.h"
+  ],
+  "python_imports": [
+    "__future__",
+    "re"
+  ]
+}

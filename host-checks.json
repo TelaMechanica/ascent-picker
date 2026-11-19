@@ -1,0 +1,53 @@
+[
+  {
+    "name": "switch",
+    "cwd": "vrx/map_runtime",
+    "sources": [
+      "tests/test_switch.c",
+      "src/ascent_switch.c"
+    ]
+  },
+  {
+    "name": "cells",
+    "cwd": "vrx/map_runtime",
+    "sources": [
+      "tests/test_cells.c",
+      "src/ascent_cells.c"
+    ]
+  },
+  {
+    "name": "pctl",
+    "cwd": "vrx/map_runtime",
+    "sources": [
+      "tests/test_pctl.c",
+      "src/ascent_picker_ctl.c",
+      "src/ascent_cells.c",
+      "src/ascent_switch.c"
+    ]
+  },
+  {
+    "name": "picker_glue",
+    "cwd": "vrx/map_runtime",
+    "sources": [
+      "tests/test_picker_glue.c",
+      "src/ascent_picker_cfg.c",
+      "src/ascent_picker_ipc.c",
+      "src/ascent_picker_osd.c",
+      "src/ascent_picker_ctl.c",
+      "src/ascent_cells.c",
+      "src/ascent_switch.c"
+    ]
+  },
+  {
+    "name": "picker_rc_source",
+    "cwd": "vrx/map_runtime",
+    "sources": [
+      "tests/test_picker_rc_source.c",
+      "src/ascent_rc_source.c",
+      "src/ascent_ring.c",
+      "src/ascent_crsf.c",
+      "src/ascent_mavlink.c",
+      "src/ascent_geo.c"
+    ]
+  }
+]
