@@ -4,8 +4,8 @@
   "stage": "native-subset",
   "files": {
     "README.md": {
-      "sha256": "41b2b2e41995fc9b6e69c50cb9e31cf06e8c2937b14a4245fc19702de08dac7e",
-      "bytes": 2412,
+      "sha256": "8b5fd1a0bcdbb577b9090c7d905c1c75e3f31489c1e648ee050d26cedcada7e2",
+      "bytes": 2813,
       "role": "document"
     },
     "SOURCE_MANIFEST.json": {
@@ -346,6 +346,11 @@
     "receiver/build-classic.py": {
       "sha256": "65c4bfb02c0bda93eaab8f5b5b219c4f5e513501a3cbfafdcb2e7616ba9e5635",
       "bytes": 2122,
+      "role": "build"
+    },
+    "receiver/package-classic.py": {
+      "sha256": "8d3c57c4a66f92ca23f42a0bc8571bf72a79a0a01b08c45c3a1e66027098f9f1",
+      "bytes": 1504,
       "role": "build"
     }
   },
