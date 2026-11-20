@@ -18,7 +18,7 @@ or invokes an RF operation.
 
 | Receiver | Implementation and package status |
 | --- | --- |
-| Classic VRX | The repository includes Classic-specific pair release and explicit peer selection. The integrated AC+ 0.43.61 build showed stable direct HDMI switching across three tested positions and receiver-side RC switching on a Classic bench. The standalone Classic build recipe, package and Widget Manager lifecycle validation are pending. |
+| Classic VRX | The repository includes Classic-specific pair release and explicit peer selection. The integrated AC+ 0.43.61 build showed stable direct HDMI switching across three tested positions and receiver-side RC switching on a Classic bench. The Classic owner build is below. The standalone Classic Widget Manager package and lifecycle validation are pending. |
 | VRX MAX | The standalone build and archive recipe is below. On-device qualification of the standalone archive and its Widget Manager lifecycle is pending. |
 
 ### MAX receiver build
@@ -33,3 +33,16 @@ python3 receiver/package-max.py /tmp/picker-max-build /tmp/picker-max.zip
 
 This is the MAX runtime and startup package. Receiver installation, update and
 rollback require the approved Widget Manager release inventory and qualification.
+
+### Classic VRX owner build
+
+This recipe targets the Classic Gnd485 receiver on Ground 19.2.14. It enables
+the Classic pair-release and explicit-peer switching path and links against the
+exact libc for that profile. Supply that libc from your own authorized copy.
+
+```sh
+python3 receiver/build-classic.py --libc /path/to/libc-2.25.so --output /tmp/picker-classic-owner
+```
+
+The build produces `ascent_picker_rt` and a digest receipt. Use the Classic
+recipe only for the specified profile. The MAX archive is for VRX MAX.
