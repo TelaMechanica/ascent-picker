@@ -46,3 +46,14 @@ python3 receiver/build-classic.py --libc /path/to/libc-2.25.so --output /tmp/pic
 
 The build produces `ascent_picker_rt` and a digest receipt. Use the Classic
 recipe only for the specified profile. The MAX archive is for VRX MAX.
+
+Package a build matching the reviewed Classic owner with:
+
+```sh
+python3 receiver/package-classic.py /tmp/picker-classic-owner /tmp/picker-classic.zip
+```
+
+The owner archive depends on Classic native payload revision 16 for the
+launcher, display and RC support. This archive is a native integration
+candidate. Widget Manager admission and Classic install, update and rollback
+validation are pending.
