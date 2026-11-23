@@ -60,15 +60,15 @@ validation are pending.
 
 ### Combined host and receiver qualification bundle
 
-Use the reviewed Classic installer ZIP and MAX receiver variant ZIP as inputs:
+Use the reviewed Picker-only Classic installer ZIP, the rebuilt revision 16
+Classic owner archive, and the reviewed MAX variant as inputs:
 
 ```sh
-python3 receiver/package-bundle.py /path/to/classic.zip /path/to/max.zip /tmp/picker-bench.zip
+python3 receiver/package-bundle.py classic.zip classic-owner.zip max.zip picker-bench.zip
 ```
 
-The recipe verifies both variant digests and packages the repository's host
-projection code. The output is a qualification candidate and requires a
-reviewed AC+ package pin and lifecycle checks before receiver deployment.
-The pinned Classic installer input predates the host's empty-slot wire format.
-Use this build for offline package inspection. Classic use requires an
-installer containing the reviewed revision 16 owner and matching inventory.
+The recipe checks the three input digests. It retains the Picker-only Classic
+launcher and display files, replaces the owner, and regenerates both Classic
+file inventories for that change. The result is an offline candidate with a
+new digest. AC+ admission and the combined Classic support set require bench
+qualification before receiver deployment.

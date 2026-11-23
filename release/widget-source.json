@@ -5,8 +5,8 @@
   "files": {
     "README.md": {
       "role": "document",
-      "bytes": 3501,
-      "sha256": "46108ca0993004034add258e9566b056f2c7e5105e5dc6eb957753806a73f554"
+      "bytes": 3458,
+      "sha256": "1c1ccb20549d548cc616ce6721ab3e6e0055af7f1563edc516576a0fd3fdf329"
     },
     "SOURCE_MANIFEST.json": {
       "sha256": "cb4e3a3d9ea07ae0d0cb491d2186455bc3e106d3a4d297cb343f81aeb44ea779",
@@ -355,8 +355,8 @@
     },
     "receiver/package-bundle.py": {
       "role": "tool",
-      "bytes": 2212,
-      "sha256": "11f73b7c8494cb4ffa5dc062baa142980bff4dd94a4e6c2912187bd281d84c88"
+      "bytes": 3879,
+      "sha256": "bbfc18dac599dcf13b883ff2295352fdf4adecb3f1994fe53c0589c0632d1fab"
     }
   },
   "include_roots": [
