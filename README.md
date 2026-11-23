@@ -57,3 +57,15 @@ The owner archive depends on Classic native payload revision 16 for the
 launcher, display and RC support. This archive is a native integration
 candidate. Widget Manager admission and Classic install, update and rollback
 validation are pending.
+
+### Combined host and receiver qualification bundle
+
+Use the reviewed Classic installer ZIP and MAX receiver variant ZIP as inputs:
+
+```sh
+python3 receiver/package-bundle.py /path/to/classic.zip /path/to/max.zip /tmp/picker-bench.zip
+```
+
+The recipe verifies both variant digests and packages the repository's host
+projection code. The output is a qualification candidate and requires a
+reviewed AC+ package pin and lifecycle checks before receiver deployment.
