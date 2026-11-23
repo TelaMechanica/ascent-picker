@@ -57,3 +57,18 @@ The owner archive depends on Classic native payload revision 16 for the
 launcher, display and RC support. This archive is a native integration
 candidate. Widget Manager admission and Classic install, update and rollback
 validation are pending.
+
+### Combined host and receiver qualification bundle
+
+Use the reviewed Picker-only Classic installer ZIP, the rebuilt revision 16
+Classic owner archive, and the reviewed MAX variant as inputs:
+
+```sh
+python3 receiver/package-bundle.py classic.zip classic-owner.zip max.zip picker-bench.zip
+```
+
+The recipe checks the three input digests. It retains the Picker-only Classic
+launcher and display files, replaces the owner, and regenerates both Classic
+file inventories for that change. The result is an offline candidate with a
+new digest. AC+ admission and the combined Classic support set require bench
+qualification before receiver deployment.
